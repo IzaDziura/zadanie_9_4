@@ -1,5 +1,7 @@
 var drawTree = prompt('Podaj wysokość');
 
+function drawTree {
+
 for (var i = 0; i < drawTree; i++) {
 	var star = '*';
 	var space = '';
@@ -13,3 +15,5 @@ for (var i = 0; i < drawTree; i++) {
 	}
 	console.log(space + star);
 }
+};
+
