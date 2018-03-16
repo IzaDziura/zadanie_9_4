@@ -1,12 +1,12 @@
-var drawTree = prompt('Podaj wysokość');
+/*var drawTree = prompt('Podaj wysokość');*/
 
-function drawTree {
+function drawTree (z) {
 
-for (var i = 0; i < drawTree; i++) {
-	var star = '*';
+for (var i = 0; i < z; i++) {
+	var star = '';
 	var space = '';
 
-	for (var k = i; k < drawTree; k++) {
+	for (var k = i; k < z; k++) {
 		space += ' ';
 	}
 
@@ -14,6 +14,6 @@ for (var i = 0; i < drawTree; i++) {
 			star += '*';
 	}
 	console.log(space + star);
-}
+	}
 };
 
